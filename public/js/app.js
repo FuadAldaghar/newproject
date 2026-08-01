@@ -1,5 +1,3 @@
-import './bootstrap';
-
 document.addEventListener('DOMContentLoaded', function () {
     const toggle = document.getElementById('menuToggle');
     const sidebar = document.getElementById('sidebar');
