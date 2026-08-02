@@ -14,6 +14,9 @@ protected $fillable = [
     'description',
     'status',
 ];
+protected $casts = [
+    'status' => 'boolean',
+];
 
     public function employees()
 {
